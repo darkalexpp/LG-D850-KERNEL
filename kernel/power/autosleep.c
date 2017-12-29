@@ -13,7 +13,7 @@
 #ifdef CONFIG_POWERSUSPEND
 #include <linux/syscalls.h>
 #endif
- +
+ 
 #include "power.h"
 
 static suspend_state_t autosleep_state;
