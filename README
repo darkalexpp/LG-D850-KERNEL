@@ -1,7 +1,7 @@
 	Para compilar:
 	1. make clean && make mrproper
 	2. export PATH=$PATH:tools/lz4demo
-	// make Arch="arquitectura" CROSS_COMPILE = "patch de enconde esta el toolchain" "configuraciones" zImage-dtb -j4
-	3. make ARCH=arm CROSS_COMPILE=/home/alex/android-ndk-r15b/toolchains/arm-linux-androideabi-4.9/prebuilt/linux-x86_64/bin/arm-linux-androideabi- g3-att-perf_defconfig zImage -j4
+	3. make alex_d850_defconfig
+	3. make ARCH=arm CROSS_COMPILE=TOOLCHAIN/linaro-4.8/bin/arm-eabi- zImage-dtb -j4
 		* lz4demo : More information can be found at "https://code.google.com/p/lz4/"
   - After build, you can find the build image(zImage) at arch/arm/boot/
