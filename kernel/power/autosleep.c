@@ -112,7 +112,7 @@ int pm_autosleep_set_state(suspend_state_t state)
  		printk(KERN_INFO "PM: Syncing filesystems ... ");
  		sys_sync();
  		printk("done.\n");
- +#endif
+ #endif
 	} else {
 		pm_wakep_autosleep_enabled(false);
 	}
