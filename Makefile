@@ -1,7 +1,7 @@
 VERSION = 3
 PATCHLEVEL = 4
 SUBLEVEL = 0
-EXTRAVERSION = Alex_Kernel_V1.0
+EXTRAVERSION = Alex_Kernel_V1.1
 NAME = Saber-toothed Squirrel
 
 # *DOCUMENTATION*
