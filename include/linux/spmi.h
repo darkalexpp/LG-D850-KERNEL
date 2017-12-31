@@ -1,4 +1,4 @@
-/* Copyright (c) 2012-2014 The Linux Foundation. All rights reserved.
+/* Copyright (c) 2012-2014, 2016 The Linux Foundation. All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License version 2 and
@@ -8,6 +8,8 @@
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU General Public License for more details.
+ *  @id: Unique identifier to differentiate from other spmi devices with
+ *       possibly same name.
  */
 
 #ifndef _LINUX_SPMI_H
@@ -129,6 +131,7 @@ struct spmi_device {
 	struct spmi_resource	*dev_node;
 	u32			num_dev_node;
 	u8			sid;
+	int			id;
 };
 #define to_spmi_device(d) container_of(d, struct spmi_device, dev)
 
