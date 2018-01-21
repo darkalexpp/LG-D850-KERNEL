@@ -1,0 +1,7 @@
+Sources for this prebuilt toolchain can be downloaded from Linaro
+at http://android-build.linaro.org/
+
+For the exact versions, look at the toolchain build matching the
+release used here, e.g. if you're interested in the sources for
+the 2013.05 prebuilts, use
+http://android-build.linaro.org/~linaro-android/toolchain-4.8-2013.05
