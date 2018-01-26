@@ -1,7 +1,9 @@
 	Para compilar:
-	1. make clean && make mrproper
-	2. export PATH=$PATH:tools/lz4demo
-	3. make alex_d850_defconfig
-	3. make ARCH=arm CROSS_COMPILE=TOOLCHAIN/linaro-4.8/bin/arm-eabi- zImage-dtb -j4
-		* lz4demo : More information can be found at "https://code.google.com/p/lz4/"
-  - After build, you can find the build image(zImage) at arch/arm/boot/
+	Es necesario instalar las siguientes dependencias:
+		libncurses5-dev build-essential zip git-core lib32stdc++6 lib32z1 lib32z1-dev
+	Ejecute el archivo Builder.sh con:
+		./Builder.sh
+  - After build, you can find the build image(zImage-dtb) at arch/arm/boot/
+
+El codigo inicial fue porporcionado por LG Open Source:
+http://opensource.lge.com
